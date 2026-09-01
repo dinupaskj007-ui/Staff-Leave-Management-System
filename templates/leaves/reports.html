@@ -1,81 +1,345 @@
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
     <title>Leave Reports | SLMS</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{% static 'css/reports.css' %}">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="{% static 'css/reports.css' %}">
+
 </head>
+
+
 <body>
 
-    <div class="blob blob1"></div>
-    <div class="blob blob2"></div>
+    <div class="page-container">
 
-    <div class="container">
-        <div class="header">
-            <h1>📊 Leave Reports</h1>
-            <p>Staff Leave Management System</p>
+        <!-- =========================
+             BACK TO DASHBOARD
+        ========================== -->
+
+        <div class="top-navigation">
+
+            <a href="{% url 'admin_dashboard' %}"
+               class="back-button">
+
+                <span>←</span>
+
+                Back to Dashboard
+
+            </a>
+
         </div>
 
-        <div class="search-container">
-            <input type="text" id="searchInput" placeholder="🔍 Search by Staff Name or Email...">
-        </div>
-        
 
-        <div class="table-wrapper">
-            <table id="reportTable">
-                <thead>
-                    <tr>
-                        <th>Staff Name</th>
-                        <th>Email</th>
-                        <th>Applied Leaves</th>
-                        <th>Pending</th>
-                        <th>Approved</th>
-                        <th>Rejected</th>
-                        <th>Total Leaves</th>
-                        <th>Used Leaves</th>
-                        <th>Remaining Leaves</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for i in result %}
-                    <tr>
-                        <td>{{ i.username }}</td>
-                        <td>{{ i.email }}</td>
-                        <td>{{ i.applied_leaves }}</td>
-                        <td>
-                            <span class="pending">{{ i.pending_leaves }}</span>
-                        </td>
-                        <td>
-                            <span class="approved">{{ i.approved_leaves }}</span>
-                        </td>
-                        <td>
-                            <span class="rejected">{{ i.rejected_leaves }}</span>
-                        </td>
-                        <td>{{ i.total_leaves }}</td>
-                        <td>
-                            <span class="approved">{{ i.used_leaves }}</span>
-                        </td>
-                        <td>
-                            <span class="pending">{{ i.remaining_leaves }}</span>
-                        </td>
-                    </tr>
-                    {% empty %}
-                    <tr>
-                        <td colspan="9" style="text-align: center;">No Leave Reports Available</td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
+        <!-- =========================
+             PAGE HEADER
+        ========================== -->
+
+        <div class="page-header">
+
+            <div class="report-icon">
+                📊
+            </div>
+
+            <h1>
+                Leave Reports
+            </h1>
+
+            <p>
+                Monitor and analyze staff leave information
+            </p>
+
         </div>
 
-        <div style="text-align: center; margin-top: 20px;">
-            <a href="{% url 'admin_dashboard' %}" class="dashboard-btn">← Back to Dashboard</a>
+
+        <!-- =========================
+             SEARCH BOX
+        ========================== -->
+
+        <div class="search-card">
+
+            <div class="search-wrapper">
+
+                <span class="search-icon">
+                    🔍
+                </span>
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search by staff name or email..."
+                    autocomplete="off">
+
+            </div>
+
+            <button
+                type="button"
+                id="searchButton"
+                class="search-button">
+
+                Search
+
+            </button>
+
+            <button
+                type="button"
+                id="clearButton"
+                class="clear-button">
+
+                Clear
+
+            </button>
+
         </div>
+
+
+        <!-- =========================
+             REPORT TABLE CARD
+        ========================== -->
+
+        <div class="report-card">
+
+            <!-- Record count -->
+
+            <div class="report-top">
+
+                <div class="record-title">
+
+                    <span class="people-icon">
+                        👥
+                    </span>
+
+                    <strong>
+                        Total Staff Found:
+                    </strong>
+
+                    <span id="staffCount">
+                        {{ result|length }}
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Table -->
+
+            <div class="table-wrapper">
+
+                <table id="reportTable">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>
+                                ID
+                            </th>
+
+                            <th>
+                                Username
+                            </th>
+
+                            <th>
+                                Email
+                            </th>
+
+                            <th>
+                                Applied
+                            </th>
+
+                            <th>
+                                Pending
+                            </th>
+
+                            <th>
+                                Approved
+                            </th>
+
+                            <th>
+                                Rejected
+                            </th>
+
+                            <th>
+                                Total Leaves
+                            </th>
+
+                            <th>
+                                Used
+                            </th>
+
+                            <th>
+                                Remaining
+                            </th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+                        {% for i in result %}
+
+                        <tr>
+
+                            <!-- ID -->
+
+                            <td>
+                                {{ i.id }}
+                            </td>
+
+
+                            <!-- Username -->
+
+                            <td>
+
+                                <div class="username-cell">
+
+                                    <div class="avatar">
+                                        {{ i.username|first|upper }}
+                                    </div>
+
+                                    <span>
+                                        {{ i.username }}
+                                    </span>
+
+                                </div>
+
+                            </td>
+
+
+                            <!-- Email -->
+
+                            <td class="email-cell">
+
+                                {{ i.email }}
+
+                            </td>
+
+
+                            <!-- Applied -->
+
+                            <td>
+
+                                <span class="count-badge applied">
+                                    {{ i.applied_leaves }}
+                                </span>
+
+                            </td>
+
+
+                            <!-- Pending -->
+
+                            <td>
+
+                                <span class="count-badge pending">
+                                    ⏳ {{ i.pending_leaves }}
+                                </span>
+
+                            </td>
+
+
+                            <!-- Approved -->
+
+                            <td>
+
+                                <span class="count-badge approved">
+                                    ✓ {{ i.approved_leaves }}
+                                </span>
+
+                            </td>
+
+
+                            <!-- Rejected -->
+
+                            <td>
+
+                                <span class="count-badge rejected">
+                                    ✕ {{ i.rejected_leaves }}
+                                </span>
+
+                            </td>
+
+
+                            <!-- Total -->
+
+                            <td>
+
+                                <strong class="total-leaves">
+                                    {{ i.total_leaves }}
+                                </strong>
+
+                            </td>
+
+
+                            <!-- Used -->
+
+                            <td>
+
+                                <span class="count-badge used">
+                                    {{ i.used_leaves }}
+                                </span>
+
+                            </td>
+
+
+                            <!-- Remaining -->
+
+                            <td>
+
+                                <span class="count-badge remaining">
+                                    {{ i.remaining_leaves }}
+                                </span>
+
+                            </td>
+
+                        </tr>
+
+
+                        {% empty %}
+
+                        <tr>
+
+                            <td
+                                colspan="10"
+                                class="empty-message">
+
+                                No Leave Reports Available
+
+                            </td>
+
+                        </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
     </div>
 
+
     <script src="{% static 'js/reports.js' %}"></script>
+
 </body>
+
 </html>

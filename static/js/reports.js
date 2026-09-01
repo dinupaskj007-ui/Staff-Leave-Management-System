@@ -1,40 +1,109 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
 
     const searchInput =
-    document.getElementById("searchInput");
+        document.getElementById("searchInput");
 
-    searchInput.addEventListener("keyup", function(){
+    const searchButton =
+        document.getElementById("searchButton");
 
-        let filter =
-        this.value.toLowerCase();
+    const clearButton =
+        document.getElementById("clearButton");
 
-        let rows =
-        document.querySelectorAll(
-            "#reportTable tbody tr"
-        );
+    const table =
+        document.getElementById("reportTable");
 
-        rows.forEach((row)=>{
+    const rows =
+        table.querySelectorAll("tbody tr");
 
-            let name =
-            row.cells[0]?.textContent
-            .toLowerCase();
+    const staffCount =
+        document.getElementById("staffCount");
 
-            let email =
-            row.cells[1]?.textContent
-            .toLowerCase();
 
-            if(
-                name?.includes(filter) ||
-                email?.includes(filter)
-            ){
+    function searchStaff() {
+
+        const searchValue =
+            searchInput.value
+                .trim()
+                .toLowerCase();
+
+        let visibleCount = 0;
+
+
+        rows.forEach(function (row) {
+
+            const username =
+                row.cells[1]?.textContent
+                    .toLowerCase();
+
+            const email =
+                row.cells[2]?.textContent
+                    .toLowerCase();
+
+
+            if (
+                username.includes(searchValue) ||
+                email.includes(searchValue)
+            ) {
+
                 row.style.display = "";
-            }
-            else{
+
+                visibleCount++;
+
+            } else {
+
                 row.style.display = "none";
+
             }
 
         });
 
-    });
+
+        staffCount.textContent = visibleCount;
+
+    }
+
+
+    /* Search button */
+
+    searchButton.addEventListener(
+        "click",
+        searchStaff
+    );
+
+
+    /* Search while typing */
+
+    searchInput.addEventListener(
+        "keyup",
+        function (event) {
+
+            if (event.key === "Enter") {
+
+                searchStaff();
+
+            }
+
+        }
+    );
+
+
+    /* Clear */
+
+    clearButton.addEventListener(
+        "click",
+        function () {
+
+            searchInput.value = "";
+
+            rows.forEach(function (row) {
+
+                row.style.display = "";
+
+            });
+
+            staffCount.textContent = rows.length;
+
+        }
+    );
 
 });

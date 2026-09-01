@@ -1,0 +1,2902 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 3,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 3,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 3,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 3,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 2,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 2,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 2,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 2,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add profile",
+    "content_type": 7,
+    "codename": "add_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change profile",
+    "content_type": 7,
+    "codename": "change_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete profile",
+    "content_type": 7,
+    "codename": "delete_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view profile",
+    "content_type": 7,
+    "codename": "view_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add leave",
+    "content_type": 8,
+    "codename": "add_leave"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change leave",
+    "content_type": 8,
+    "codename": "change_leave"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete leave",
+    "content_type": 8,
+    "codename": "delete_leave"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view leave",
+    "content_type": 8,
+    "codename": "view_leave"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add balnace leave",
+    "content_type": 9,
+    "codename": "add_balnaceleave"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change balnace leave",
+    "content_type": 9,
+    "codename": "change_balnaceleave"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete balnace leave",
+    "content_type": 9,
+    "codename": "delete_balnaceleave"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view balnace leave",
+    "content_type": 9,
+    "codename": "view_balnaceleave"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add leave balance",
+    "content_type": 9,
+    "codename": "add_leavebalance"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change leave balance",
+    "content_type": 9,
+    "codename": "change_leavebalance"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete leave balance",
+    "content_type": 9,
+    "codename": "delete_leavebalance"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view leave balance",
+    "content_type": 9,
+    "codename": "view_leavebalance"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$VYe2AfJuD5pwTELdouAWRh$oIiSw5BzB+9Mjt/GrAxtk1D2B1VQnfTnzqgwTlgIgt4=",
+    "last_login": "2026-06-16T15:21:36.204Z",
+    "is_superuser": false,
+    "username": "omteja04",
+    "first_name": "",
+    "last_name": "",
+    "email": "omteja@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-12T16:52:45.872Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$Pqnms2rIximAjlUKfPdx6N$Ge3X2A6q6zo5vuXk8OjiEEhyNLcQEsR4XFDQHFXGfRM=",
+    "last_login": "2026-06-18T21:06:50.838Z",
+    "is_superuser": false,
+    "username": "satya",
+    "first_name": "",
+    "last_name": "",
+    "email": "satya@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-12T16:53:21.004Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$n3UZgGc5dLfEfEdPDwbPkw$986YubEPOh+VEffNOLladvf++hmi46/lTQi3pCbXvak=",
+    "last_login": "2026-09-01T02:36:35.558Z",
+    "is_superuser": false,
+    "username": "chandu",
+    "first_name": "",
+    "last_name": "",
+    "email": "chandu@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-12T16:54:08.923Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$DqS2pOOD58VxBuSGOxjYst$llMZWaMwfd5bJRR5UiAItYlQC5/v0C2bjMZYtWSV4y0=",
+    "last_login": "2026-06-13T05:32:37.602Z",
+    "is_superuser": false,
+    "username": "dharma",
+    "first_name": "",
+    "last_name": "",
+    "email": "dharma@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-13T05:20:14.224Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$98j49cjBIuFOSy4pKdNdYL$kDj4h0i5KL3pewysbcG6lfvFqCDdCiyI28j+IMJboqY=",
+    "last_login": "2026-06-13T05:23:28.460Z",
+    "is_superuser": false,
+    "username": "mani",
+    "first_name": "",
+    "last_name": "",
+    "email": "mani@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-13T05:23:17.584Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$zXvpCnTp23OdNP4B92ykaK$BSdTE0HWeWU/JMYtEHy41upn6jPxnL9YF0XFgJBMAA4=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "charan",
+    "first_name": "",
+    "last_name": "",
+    "email": "charan@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-13T19:13:45.402Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$snbmIcg2rxTK58RjxlgmnY$0V39UMrUC8ynZGS7joC8iYZdzL1ICXaBNbm8Qsg/uV8=",
+    "last_login": "2026-06-16T17:57:24.519Z",
+    "is_superuser": false,
+    "username": "vinay",
+    "first_name": "",
+    "last_name": "",
+    "email": "vinay@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-13T19:16:41.620Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$qcXgMmpAFjA1RDDFMfckMO$bEpZXbQ+BL4c3LB0ybncwnoVDyr52pwPfFUoiXfHHtU=",
+    "last_login": "2026-06-18T00:01:35.541Z",
+    "is_superuser": false,
+    "username": "malli",
+    "first_name": "",
+    "last_name": "",
+    "email": "malli@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-14T05:03:00.658Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$n379UW8R4dLHwVrAROi72N$yfpjEB6aUJj9/0HqmusbujKk54aa4qzMCDGmT7/Rhs0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "kumar",
+    "first_name": "",
+    "last_name": "",
+    "email": "kumar@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-15T08:40:16.677Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 13,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$6kxv7RoFtAiiF7XLOAa8nF$16imKhQbWKMSM5Jy+AGm5vN3sQtavA7AN6ggr3TfaTI=",
+    "last_login": "2026-06-16T18:23:10.546Z",
+    "is_superuser": false,
+    "username": "jeevan",
+    "first_name": "",
+    "last_name": "",
+    "email": "jeevan@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-15T09:17:53.969Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 15,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$4Ec0kPOLkyBUQtBGRcokEe$s7EKBzzrV8leQRVotWa1/SfviHNp+iot1QQgXxddy4s=",
+    "last_login": "2026-06-16T19:26:10.755Z",
+    "is_superuser": false,
+    "username": "sandhya",
+    "first_name": "",
+    "last_name": "",
+    "email": "sandhya@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-15T13:18:26.448Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 16,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$Y2yb3puibzBnXzuAbyNdF4$xJyxrRJ8YfLH0QVTOCXxINlpsb0a6M3xilaWS+i97iY=",
+    "last_login": "2026-06-17T23:58:53.377Z",
+    "is_superuser": false,
+    "username": "yashu",
+    "first_name": "",
+    "last_name": "",
+    "email": "yashu@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-15T13:29:21.374Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 17,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$uJQQWH3kJdf0el5BDMbuzv$uOfKi7NZOLPsIGMN5jiRbj432ctie4W/plFYU2VUtvs=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sunil",
+    "first_name": "",
+    "last_name": "",
+    "email": "sunilpuvvala@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-15T13:29:49.173Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 18,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$enArSWNhOAmy245ucUjbPu$XIZr9gyJqwPtgERJHUz2rIkBkc0/Df8ML8qyHOYU8nU=",
+    "last_login": "2026-09-01T02:36:14.553Z",
+    "is_superuser": false,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "chanducruels59@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-15T13:32:19.507Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 19,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$5BRUYmPBZ4EXeMB0YMIGvj$3URD259P+2SPbtcqJK99HHq3f6OleMlGkY6lq68xRV4=",
+    "last_login": "2026-06-15T17:06:30.677Z",
+    "is_superuser": false,
+    "username": "maadhu",
+    "first_name": "",
+    "last_name": "",
+    "email": "madegowda@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-15T17:05:29.932Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 20,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$ve9NQqg2bA0dKBJRFHxXcp$WoRVbvVULMy7b7aZiPjTZANjSk/6cXOZrtLPRhFNe9c=",
+    "last_login": "2026-06-16T15:18:59.750Z",
+    "is_superuser": false,
+    "username": "gowda",
+    "first_name": "",
+    "last_name": "",
+    "email": "maadhu@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-16T14:15:13.387Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 21,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$57c5TYLQYbkVeLnEwU5P71$YUQNPfyrVyw/xfwmg66s7Ap6d/6rbnZuw4OYvYgSHks=",
+    "last_login": "2026-06-16T17:03:07.934Z",
+    "is_superuser": false,
+    "username": "harish",
+    "first_name": "",
+    "last_name": "",
+    "email": "harish12@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-16T16:14:31.584Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 22,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$G4WOaZRgnPakgT4VdQnx4I$BzEQJ63SEL10Sb/nT94HbgKAzoe53FeFg5YbNsplBeA=",
+    "last_login": "2026-06-16T16:31:56.598Z",
+    "is_superuser": false,
+    "username": "harisha",
+    "first_name": "",
+    "last_name": "",
+    "email": "harish123@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-16T16:26:32.292Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 23,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$P7WPaaYQber4aQE1sLfBOV$Z6rVlPNLYQCgNFYgvtw/iEqqQzlkBfcpHaFE8akwEHM=",
+    "last_login": "2026-06-16T18:01:06.921Z",
+    "is_superuser": false,
+    "username": "vinay choudary",
+    "first_name": "",
+    "last_name": "",
+    "email": "vinaymalli@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-16T17:57:57.265Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 24,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$emVldSYl4OcuuFzguHtaRS$bt+15ZtuAC35vI8Vd7Oc23U0kAQK7SJcoIVMc3J9OE8=",
+    "last_login": "2026-06-16T18:26:57.827Z",
+    "is_superuser": false,
+    "username": "nani",
+    "first_name": "",
+    "last_name": "",
+    "email": "nani@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-16T18:26:10.500Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 25,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$mydcxqbcElqTWV1vMgjuGe$MKh1m6Kyytj5HOPWhPo3z2+qIMvnWXBfuyPi54L/LFc=",
+    "last_login": "2026-06-17T07:45:47.630Z",
+    "is_superuser": false,
+    "username": "JK",
+    "first_name": "",
+    "last_name": "",
+    "email": "JK@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-17T07:42:59.016Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 26,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$simba6KYTbP4hkdqAKWlQq$1CCLwKDqEG1OhZ31RXYZYgPAKoloB95EC3krmJQUfHE=",
+    "last_login": "2026-06-17T07:47:50.691Z",
+    "is_superuser": false,
+    "username": "sample",
+    "first_name": "",
+    "last_name": "",
+    "email": "samplle@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-17T07:46:35.563Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 27,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$3NyWAcEeYR6nd3B4tJAGuD$gleLV9HEw1KDF7mRkyOEZcAmHsNevgsIBAzhAItiWcs=",
+    "last_login": "2026-06-17T07:53:59.745Z",
+    "is_superuser": false,
+    "username": "dcl",
+    "first_name": "",
+    "last_name": "",
+    "email": "dcl@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-17T07:51:31.364Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 28,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$T2zdZwd4Wb8yNqVnWDTx2M$/zBeXzMFYlzdeMEAc8f5pR8HQO2S3HxGTFCLK/V3M1o=",
+    "last_login": "2026-06-18T19:32:33.914Z",
+    "is_superuser": false,
+    "username": "sandy",
+    "first_name": "",
+    "last_name": "",
+    "email": "sandy@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-17T14:18:24.704Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 29,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$5OD2AEXa940DgNiVMVpYem$GRy2Ef55I5wEAWkPhICyTiKlx31qXPvcl9bG9FpqPiI=",
+    "last_login": "2026-06-18T19:32:35.805Z",
+    "is_superuser": false,
+    "username": "rohith",
+    "first_name": "",
+    "last_name": "",
+    "email": "rohith@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-17T14:21:57.084Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 30,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$Vkiz7VIA7eeYzPI8WZCKKA$kdBDk9ZrMhVh+GKnMAmaz3C/8ihL6nkMeswQKxvUESU=",
+    "last_login": "2026-06-19T08:38:39.245Z",
+    "is_superuser": false,
+    "username": "bunty",
+    "first_name": "",
+    "last_name": "",
+    "email": "chanduabbireddy247@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-19T05:46:21.092Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 31,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$0qlDpTsFTDOndeXH205oW5$riNgyIO5MR0x8ZkME7rrOdAOcwNI8ufKKgod+fWGHvg=",
+    "last_login": "2026-06-19T09:14:13.537Z",
+    "is_superuser": false,
+    "username": "jaya krishna",
+    "first_name": "",
+    "last_name": "",
+    "email": "allimpallijayakrishna9@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-19T08:41:27.361Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 32,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$0alb0XSfmaqv9cF9DNREiE$E4BgRNeI9y5Go6oFpoDeUB+cEBqD/+0qDsFQ5OWavBs=",
+    "last_login": "2026-06-19T14:21:03.402Z",
+    "is_superuser": false,
+    "username": "madegowda",
+    "first_name": "",
+    "last_name": "",
+    "email": "madegowdan11@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-19T14:20:46.863Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "accounts",
+    "model": "profile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "leaves",
+    "model": "leave"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "leaves",
+    "model": "leavebalance"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "078kmu46r3uukvdd25x5si6kojermihh",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCKlIJL956BzAwzUjU0Ke3KeHfbpAvd_vfef6sE61LS2nhOY1YXdVan3w2Bnlx3kB9Q75OmqS7ziHpX9EGbvk2ZX9fD_Tso0MpWixCIdZE54FZZihD6IUcSCTA4QWP77LyVaAVDFztvjAvg2GOmGEB9viW0OQk:1wZY02:cFZWEkCOg-hjX3WinOrzKn0MhTgEFPYcTbgaQv5lIdE",
+    "expire_date": "2026-06-30T17:54:58.475Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1cok1fudr8mligyyay7ds01bz0q0ec3b",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHyZly69xsIDINUDSSlXRn_3TbpQrf3nHPfLMR1qWEdNIcpswuTwE6_Y4r4pLaT_Ijt3jn2tsxT4rvCDzr4rWd6XQ_376DGUbc6IUQrvdAEkEDbrDxRkUqdXXKYSFgJJJxR2hcdSReH3oAEQ3kLFLLPFwkfOAg:1waITb:Lbq19A6T1e8Wft7fAQrOzcNVRzaiuQrlPJYxyJJWbZA",
+    "expire_date": "2026-07-02T19:32:35.814Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "27s6ly4ze4rxasrnexk15f1at8hqxq30",
+  "fields": {
+    "session_data": "e30:1wZVXP:QNb-Z_v7CQk_tz8u0BZ75iro9GZy_X2UPbb-fBKbvY0",
+    "expire_date": "2026-06-30T15:17:15.996Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5cah8fn1o2qrrdxa32fvrcqhdh7xm7in",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hBkSgsu3XsGMjAzUjU0Ke3KeHfbpAvdvvf-f6uI61Li2niOI6mLsur0yxLmJ9dd0APrfdJ5qss8Jr0n-rBN3ybi1_Vo_w4KtrKtHUmwYHvOyGK6XqwXQx0gMNjMFBxkzABwFvBJeGM-JGYnNFgzGPX5AgJOOMI:1waJTU:tZxebO_zdwkVvZ75vobfmvIXZsndwFNdr6HwAuCo4xE",
+    "expire_date": "2026-07-02T20:36:32.472Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cw6fzm6ot3fbh9xzdqa03b4g3jef5224",
+  "fields": {
+    "session_data": ".eJxVjLEOwyAQQ_-FuUKEEAIdu-cbEHfclbQVkUIyVf33EilDK3mw_Gy_RYj7lsNeaQ1zElfRKXH5DSHik8pB0iOW-yJxKds6gzwq8qRVTkui1-3s_h3kWHNbAzqvwFkwCTmyhVGzxV77MXXGYOqZB2NooGYiK9LOAPkmxHHgXonPFzWPOWU:1wYyBH:2VZPR5MbIfbZRbZAbrba43mxfQZxvnRLo8ReNytkHFM",
+    "expire_date": "2026-06-29T03:40:11.917Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ipggvnmccmacfw8d6bh5kmqdcp1zddn6",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyEFWVg8evcbCLCsVA1NSnsy_rtt0oOeJpn3Zt4ixHWpYe1lDiOJi1AoTr9livlZ2k7oEdt9knlqyzwmuSvyoF3eJiqv6-H-HdTY67Z2aOhMyYEGVgYiABvyTJj8wAWx5IyeXbLWDAo1F8NbJJvBAuhM4vMFDvA4MQ:1wa5rH:WkBycZKbSLrBIuAlmUhSm3Aa8Dc9qjFoXd_lAzyv3EU",
+    "expire_date": "2026-07-02T06:04:11.942Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "khcfk6vj9gio4m8lhtwjwb553qawb6fo",
+  "fields": {
+    "session_data": "e30:1wZVWz:tfmW25G61tGQLV46PG3oIpVr7G-g_k00huNJgfQxVMg",
+    "expire_date": "2026-06-30T15:16:49.303Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lr675rgl3q85xu9ljvsr5f80taeumpua",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCKlIJL956BzAwzUjU0Ke3KeHfbpAvd_vfef6sE61LS2nhOY1YXdVan3w2Bnlx3kB9Q75OmqS7ziHpX9EGbvk2ZX9fD_Tso0MpWixCIdZE54FZZihD6IUcSCTA4QWP77LyVaAVDFztvjAvg2GOmGEB9viW0OQk:1wYUFD:hR6BBovNkJ7YXH83caZt6Hxu_tMs2o1EvZCUsc5ufEg",
+    "expire_date": "2026-06-27T19:42:15.367Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "m0nxna6t1ureossbu0w5uf4py6mo7iwn",
+  "fields": {
+    "session_data": "e30:1wYnBD:TRxMJI-3yzi0J8lgdPVNaCUIQvztn3Dd7KWG5i2GRvU",
+    "expire_date": "2026-06-28T15:55:23.487Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "sfk78zzabgfhvdqjub71j621nbq105bs",
+  "fields": {
+    "session_data": "e30:1wYTvk:BfcdopffffhV5VMg3MeBeYO31VGmwjidDglgmi5f3zo",
+    "expire_date": "2026-06-27T19:22:08.007Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "syxjxt40sdoge9gpgnt1dwil37vbhrxv",
+  "fields": {
+    "session_data": "e30:1wZY2O:1BEV1_Q4u4T9uNmLT3PO9w1_P3k6qprEC0Yw1oFEa3o",
+    "expire_date": "2026-06-30T17:57:24.510Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tusf1u3bbs2yvs0bjyjcwrktclqi7uds",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSFAL7S4dO83EO6jtmogKe3K-O_apAvdnpk5L5Xytk5pa7KkmdVZOVCn3xEzPaTshO-53KqmWtZlRr0r-qBNXyvL83K4fwdTbtO3BqRhxNEGjOy5H4gCBhEzMkXbdb0VEG8c9BxNDOQ7Tza6wXjICA5RvT8nBjg7:1wZYUz:VXk0hRKFTMF1fj7xzJYvlUs9FcT-Wyy-FtXos5YPUz0",
+    "expire_date": "2026-06-30T18:26:57.842Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wal8htrfj8jvntxdkiyysl8626we3n7s",
+  "fields": {
+    "session_data": "e30:1wZY2F:dqvv8Hf8bsgiMFx35lQxwIJ4i65u8w-bMoDATyCQD8Y",
+    "expire_date": "2026-06-30T17:57:15.630Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "x4j2f9wh437f5j2dpy37ula42fz1b005",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQAP-yZ0OAhW3t0XvfQJaFStXQpLQn499Nkx70OjOZNwTetxL2ltcwJxgA4fLLIssz10OkB9f7omSp2zpHdSTqtE2NS8qv29n-DQq3AgP0SIzoXEderIh4PyHGyXTsozWM2TmLxlinxURB6pHkKk5bk5GINHy-v_Q2kQ:1x1EMV:pcaCFQSsPns3g_IyubyU3wZTpns_ke0x9PqCjTppqrg",
+    "expire_date": "2026-09-15T02:36:35.574Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xysu28q8mt8jpw940ww6tvdawyps2cgk",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCKlIJL956BzAwzUjU0Ke3KeHfbpAvd_vfef6sE61LS2nhOY1YXdVan3w2Bnlx3kB9Q75OmqS7ziHpX9EGbvk2ZX9fD_Tso0MpWixCIdZE54FZZihD6IUcSCTA4QWP77LyVaAVDFztvjAvg2GOmGEB9viW0OQk:1wYH2p:zVP2l5jEuPoLpeNltDlMR7fvhsJc_h7bQeK8mHjAi5I",
+    "expire_date": "2026-06-27T05:36:35.567Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "z96m3sbte2nbyghzwc3ykgffo8ttrd4p",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCKlIJL956BzAwzUjU0Ke3KeHfbpAvd_vfef6sE61LS2nhOY1YXdVan3w2Bnlx3kB9Q75OmqS7ziHpX9EGbvk2ZX9fD_Tso0MpWixCIdZE54FZZihD6IUcSCTA4QWP77LyVaAVDFztvjAvg2GOmGEB9viW0OQk:1wZ7Ve:vLUVN376UB7HPbufWoPfVfxSIuyFdKx-8AnyGMA9oW0",
+    "expire_date": "2026-06-29T13:37:50.780Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "role": "staff"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "role": "staff"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 3,
+  "fields": {
+    "user": 3,
+    "role": "admin"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 4,
+  "fields": {
+    "user": 4,
+    "role": "staff"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 5,
+  "fields": {
+    "user": 5,
+    "role": "staff"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 8,
+  "fields": {
+    "user": 10,
+    "role": "staff"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 9,
+  "fields": {
+    "user": 11,
+    "role": "staff"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 11,
+  "fields": {
+    "user": 13,
+    "role": "admin"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 13,
+  "fields": {
+    "user": 15,
+    "role": "staff"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 14,
+  "fields": {
+    "user": 16,
+    "role": "staff"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 15,
+  "fields": {
+    "user": 17,
+    "role": "staff"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 16,
+  "fields": {
+    "user": 18,
+    "role": "staff"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 17,
+  "fields": {
+    "user": 19,
+    "role": "staff"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 18,
+  "fields": {
+    "user": 20,
+    "role": "staff"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 19,
+  "fields": {
+    "user": 21,
+    "role": "staff"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 20,
+  "fields": {
+    "user": 22,
+    "role": "admin"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 21,
+  "fields": {
+    "user": 23,
+    "role": "staff"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 22,
+  "fields": {
+    "user": 24,
+    "role": "staff"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 23,
+  "fields": {
+    "user": 25,
+    "role": "staff"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 24,
+  "fields": {
+    "user": 26,
+    "role": "staff"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 25,
+  "fields": {
+    "user": 27,
+    "role": "staff"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 26,
+  "fields": {
+    "user": 28,
+    "role": "staff"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 27,
+  "fields": {
+    "user": 29,
+    "role": "admin"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 28,
+  "fields": {
+    "user": 30,
+    "role": "staff"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 29,
+  "fields": {
+    "user": 31,
+    "role": "staff"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 30,
+  "fields": {
+    "user": 32,
+    "role": "staff"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 1,
+  "fields": {
+    "username": 10,
+    "leave_type": "Casual Leave",
+    "email": null,
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-15",
+    "end_date": "2026-06-16",
+    "total_days": 0.0,
+    "reason": "thanks namstey",
+    "status": "approved"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 2,
+  "fields": {
+    "username": 10,
+    "leave_type": "Casual Leave",
+    "email": null,
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-15",
+    "end_date": "2026-06-16",
+    "total_days": 0.0,
+    "reason": "thanks namastey",
+    "status": "approved"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 3,
+  "fields": {
+    "username": 18,
+    "leave_type": "Casual Leave",
+    "email": null,
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-15",
+    "end_date": "2026-06-16",
+    "total_days": 0.0,
+    "reason": "thanks namastet",
+    "status": "approved"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 4,
+  "fields": {
+    "username": 18,
+    "leave_type": "Casual Leave",
+    "email": null,
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-15",
+    "end_date": "2026-06-18",
+    "total_days": 0.0,
+    "reason": "thanks namastet",
+    "status": "rejected"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 5,
+  "fields": {
+    "username": 18,
+    "leave_type": "Casual Leave",
+    "email": "chanducruels59@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-16",
+    "end_date": "2026-06-20",
+    "total_days": 0.0,
+    "reason": "my life my rules",
+    "status": "rejected"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 6,
+  "fields": {
+    "username": 18,
+    "leave_type": "Casual Leave",
+    "email": "satya@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-16",
+    "end_date": "2026-06-20",
+    "total_days": 0.0,
+    "reason": "leave ivvu",
+    "status": "approved"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 7,
+  "fields": {
+    "username": 18,
+    "leave_type": "Casual Leave",
+    "email": "naidu@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-17",
+    "end_date": "2026-06-19",
+    "total_days": 0.0,
+    "reason": "thanks namastey",
+    "status": "rejected"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 8,
+  "fields": {
+    "username": 18,
+    "leave_type": "Casual Leave",
+    "email": "madhegowda@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-16",
+    "end_date": "2026-07-15",
+    "total_days": 0.0,
+    "reason": "my life my rules",
+    "status": "approved"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 9,
+  "fields": {
+    "username": 19,
+    "leave_type": "Casual Leave",
+    "email": "madegowda@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-16",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "nam  istaaa",
+    "status": "rejected"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 10,
+  "fields": {
+    "username": 18,
+    "leave_type": "Casual Leave",
+    "email": "chanducruels59@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-17",
+    "end_date": "2026-06-18",
+    "total_days": 0.0,
+    "reason": "leave kottilla",
+    "status": "rejected"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 11,
+  "fields": {
+    "username": 18,
+    "leave_type": "Casual Leave",
+    "email": "admin@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-17",
+    "end_date": "2026-06-17",
+    "total_days": 0.0,
+    "reason": "just fr fun",
+    "status": "rejected"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 12,
+  "fields": {
+    "username": 18,
+    "leave_type": "Sick Leave",
+    "email": "chanducruels59@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-17",
+    "end_date": "2026-06-20",
+    "total_days": 0.0,
+    "reason": "just for fun",
+    "status": "approved"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 13,
+  "fields": {
+    "username": 18,
+    "leave_type": "Sick Leave",
+    "email": "chanducruels59@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-17",
+    "end_date": "2026-06-18",
+    "total_days": 0.0,
+    "reason": "naa istam ivvu raa leave",
+    "status": "rejected"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 14,
+  "fields": {
+    "username": 20,
+    "leave_type": "Sick Leave",
+    "email": "maadhu@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-17",
+    "end_date": "2026-06-20",
+    "total_days": 0.0,
+    "reason": "feeling sick",
+    "status": "approved"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 15,
+  "fields": {
+    "username": 1,
+    "leave_type": "Emergency Leave",
+    "email": "silla@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-17",
+    "end_date": "2026-06-19",
+    "total_days": 0.0,
+    "reason": "my marriage",
+    "status": "approved"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 16,
+  "fields": {
+    "username": 18,
+    "leave_type": "Casual Leave",
+    "email": "chanducruels59@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-30",
+    "end_date": "2026-07-24",
+    "total_days": 0.0,
+    "reason": "emergency",
+    "status": "rejected"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 17,
+  "fields": {
+    "username": 23,
+    "leave_type": "Sick Leave",
+    "email": "vinaymalli@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-18",
+    "end_date": "2026-06-20",
+    "total_days": 0.0,
+    "reason": "health issues",
+    "status": "approved"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 18,
+  "fields": {
+    "username": 23,
+    "leave_type": "Emergency Leave",
+    "email": "vinaymalli@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-07-22",
+    "end_date": "2026-07-30",
+    "total_days": 0.0,
+    "reason": "vacational purpose",
+    "status": "rejected"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 19,
+  "fields": {
+    "username": 2,
+    "leave_type": "Sick Leave",
+    "email": "satyasaila18@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-17",
+    "end_date": "2026-06-19",
+    "total_days": 0.0,
+    "reason": "health issue",
+    "status": "rejected"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 20,
+  "fields": {
+    "username": 16,
+    "leave_type": "Casual Leave",
+    "email": "yashu@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-18",
+    "end_date": "2026-06-20",
+    "total_days": 0.0,
+    "reason": "vacational holiday",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 21,
+  "fields": {
+    "username": 25,
+    "leave_type": "Sick Leave",
+    "email": "jk@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-18",
+    "end_date": "2026-06-20",
+    "total_days": 0.0,
+    "reason": "emergency",
+    "status": "approved"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 22,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "satya18@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 23,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 24,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 25,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 26,
+  "fields": {
+    "username": 29,
+    "leave_type": "sick leave",
+    "email": "satya",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 27,
+  "fields": {
+    "username": 29,
+    "leave_type": "sick leave",
+    "email": "satya",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 28,
+  "fields": {
+    "username": 29,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 29,
+  "fields": {
+    "username": 29,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 30,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 31,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 32,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 33,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 34,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 35,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 36,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 37,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 38,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 39,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 40,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 41,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 42,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 43,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 44,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 45,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 46,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 47,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "rejected"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 48,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "approved"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 49,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 50,
+  "fields": {
+    "username": 16,
+    "leave_type": "Emergency Leave",
+    "email": "yashu@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-19",
+    "end_date": "2026-06-24",
+    "total_days": 0.0,
+    "reason": "Emergency caregiving responsibilities",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 51,
+  "fields": {
+    "username": 2,
+    "leave_type": "Casual Leave",
+    "email": "satya18@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-23",
+    "end_date": "2026-06-26",
+    "total_days": 0.0,
+    "reason": "Family Function",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 52,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 53,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 54,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 55,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 56,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 57,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 58,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 59,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 60,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 61,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 62,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 63,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 64,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 65,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 66,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 67,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 68,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 69,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 70,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 71,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 72,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 73,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 74,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 75,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 76,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 77,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 78,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 79,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 80,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "pending"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 81,
+  "fields": {
+    "username": 28,
+    "leave_type": "sick leave",
+    "email": "sandy@gmail.com",
+    "duration": "full",
+    "half_day_session": null,
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-23",
+    "total_days": 0.0,
+    "reason": "Health Issue",
+    "status": "rejected"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 82,
+  "fields": {
+    "username": 2,
+    "leave_type": "Casual Leave",
+    "email": "satyasaila18@gmail.com",
+    "duration": "half",
+    "half_day_session": "morning",
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-20",
+    "total_days": 0.5,
+    "reason": "family vacation",
+    "status": "approved"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 83,
+  "fields": {
+    "username": 30,
+    "leave_type": "Casual Leave",
+    "email": "chanduabbireddy247@gmail.com",
+    "duration": "half",
+    "half_day_session": "morning",
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-20",
+    "total_days": 0.5,
+    "reason": "simple need a leave",
+    "status": "approved"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 84,
+  "fields": {
+    "username": 30,
+    "leave_type": "Casual Leave",
+    "email": "chanduabbireddy247@gmail.com",
+    "duration": "full",
+    "half_day_session": "",
+    "start_date": "2026-06-22",
+    "end_date": "2026-06-27",
+    "total_days": 6.0,
+    "reason": "going to vacation",
+    "status": "rejected"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 85,
+  "fields": {
+    "username": 30,
+    "leave_type": "Casual Leave",
+    "email": "chanduabbireddy247@gmail.com",
+    "duration": "half",
+    "half_day_session": "afternoon",
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-20",
+    "total_days": 0.5,
+    "reason": "going to some where",
+    "status": "approved"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 86,
+  "fields": {
+    "username": 31,
+    "leave_type": "Sick Leave",
+    "email": "allimpallijayakrishna9@gmail.com",
+    "duration": "full",
+    "half_day_session": "",
+    "start_date": "2026-06-22",
+    "end_date": "2026-06-27",
+    "total_days": 6.0,
+    "reason": "health issues",
+    "status": "approved"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 87,
+  "fields": {
+    "username": 31,
+    "leave_type": "Casual Leave",
+    "email": "allimpallijayakrishna9@gmail.com",
+    "duration": "half",
+    "half_day_session": "afternoon",
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-20",
+    "total_days": 0.5,
+    "reason": "health issues",
+    "status": "approved"
+  }
+},
+{
+  "model": "leaves.leave",
+  "pk": 88,
+  "fields": {
+    "username": 32,
+    "leave_type": "Casual Leave",
+    "email": "madegowdan11@gmail.com",
+    "duration": "full",
+    "half_day_session": "",
+    "start_date": "2026-06-22",
+    "end_date": "2026-06-30",
+    "total_days": 9.0,
+    "reason": "simply need a leave",
+    "status": "approved"
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "total_leave": 45.0,
+    "used_leave": 0.0,
+    "remaining_leave": 45.0
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "total_leave": 45.0,
+    "used_leave": 0.5,
+    "remaining_leave": 44.5
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 3,
+  "fields": {
+    "user": 4,
+    "total_leave": 45.0,
+    "used_leave": 0.0,
+    "remaining_leave": 45.0
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 4,
+  "fields": {
+    "user": 5,
+    "total_leave": 45.0,
+    "used_leave": 0.0,
+    "remaining_leave": 45.0
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 5,
+  "fields": {
+    "user": 10,
+    "total_leave": 45.0,
+    "used_leave": 0.0,
+    "remaining_leave": 45.0
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 6,
+  "fields": {
+    "user": 11,
+    "total_leave": 45.0,
+    "used_leave": 0.0,
+    "remaining_leave": 45.0
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 7,
+  "fields": {
+    "user": 15,
+    "total_leave": 45.0,
+    "used_leave": 0.0,
+    "remaining_leave": 45.0
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 8,
+  "fields": {
+    "user": 16,
+    "total_leave": 45.0,
+    "used_leave": 0.0,
+    "remaining_leave": 45.0
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 9,
+  "fields": {
+    "user": 17,
+    "total_leave": 45.0,
+    "used_leave": 0.0,
+    "remaining_leave": 45.0
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 10,
+  "fields": {
+    "user": 18,
+    "total_leave": 45.0,
+    "used_leave": 0.0,
+    "remaining_leave": 45.0
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 11,
+  "fields": {
+    "user": 19,
+    "total_leave": 45.0,
+    "used_leave": 0.0,
+    "remaining_leave": 45.0
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 12,
+  "fields": {
+    "user": 20,
+    "total_leave": 45.0,
+    "used_leave": 0.0,
+    "remaining_leave": 45.0
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 13,
+  "fields": {
+    "user": 21,
+    "total_leave": 45.0,
+    "used_leave": 0.0,
+    "remaining_leave": 45.0
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 14,
+  "fields": {
+    "user": 23,
+    "total_leave": 45.0,
+    "used_leave": 0.0,
+    "remaining_leave": 45.0
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 15,
+  "fields": {
+    "user": 24,
+    "total_leave": 45.0,
+    "used_leave": 0.0,
+    "remaining_leave": 45.0
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 16,
+  "fields": {
+    "user": 25,
+    "total_leave": 45.0,
+    "used_leave": 0.0,
+    "remaining_leave": 45.0
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 17,
+  "fields": {
+    "user": 26,
+    "total_leave": 45.0,
+    "used_leave": 0.0,
+    "remaining_leave": 45.0
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 18,
+  "fields": {
+    "user": 27,
+    "total_leave": 45.0,
+    "used_leave": 0.0,
+    "remaining_leave": 45.0
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 19,
+  "fields": {
+    "user": 28,
+    "total_leave": 45.0,
+    "used_leave": 0.0,
+    "remaining_leave": 45.0
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 20,
+  "fields": {
+    "user": 30,
+    "total_leave": 45.0,
+    "used_leave": 1.0,
+    "remaining_leave": 44.0
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 21,
+  "fields": {
+    "user": 31,
+    "total_leave": 45.0,
+    "used_leave": 6.5,
+    "remaining_leave": 38.5
+  }
+},
+{
+  "model": "leaves.leavebalance",
+  "pk": 22,
+  "fields": {
+    "user": 32,
+    "total_leave": 45.0,
+    "used_leave": 9.0,
+    "remaining_leave": 36.0
+  }
+}
+]
