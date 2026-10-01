@@ -1,18 +1,6 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Staff | SLMS</title>
+import os
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="{% static 'css/edit_staff.css' %}">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-</head>
-<body>
-
+sidebar_html = """
 <!-- Sidebar -->
 <div class="sidebar" id="sidebar">
     <div class="logo">
@@ -27,65 +15,19 @@
         <a href="{% url 'logout' %}"><i class="fas fa-right-from-bracket"></i><span>Logout</span></a>
     </div>
 </div>
+"""
 
-
+main_start_html = """
 <!-- Main Content -->
 <div class="main" id="main-content" style="margin-left: 280px; width: calc(100% - 280px); transition: margin-left 0.3s, width 0.3s; position: relative; min-height: 100vh;">
     <button class="toggle-sidebar-btn" onclick="toggleSidebar()" style="position: absolute; top: 20px; left: -15px; width: 30px; height: 30px; background: #4f46e5; color: white; border: none; border-radius: 50%; cursor: pointer; box-shadow: 0 2px 5px rgba(0,0,0,0.2); z-index: 1001; display: flex; align-items: center; justify-content: center; transition: 0.3s;"><i class="fas fa-chevron-left" id="toggle-icon"></i></button>
+"""
 
-
-<!-- Back Button -->
-<button onclick="history.back()" style="position: fixed; top: 20px; left: 20px; width: 40px; height: 40px; border-radius: 50%; background-color: white; border: none; box-shadow: 0 2px 5px rgba(0,0,0,0.2); cursor: pointer; z-index: 9999; display: flex; align-items: center; justify-content: center; color: black; font-size: 20px; font-weight: bold;" title="Go Back">
-    &#8592;
-</button>
-
-
-    <div class="container">
-        <div class="card">
-
-            <div class="left">
-                <h1>SLMS</h1>
-                <h2>Edit Staff Details</h2>
-            </div>
-
-            <div class="right">
-                <h2>Edit Staff</h2>
-
-                <form method="POST">
-                    {% csrf_token %}
-
-                    <div class="form-group">
-                        <label>Username</label>
-                        <input type="text" name="username" value="{{ staff.username }}" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Email Address</label>
-                        <input type="email" name="email" value="{{ staff.email }}" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Password</label>
-                        <input type="password" id="password" name="password" placeholder="Leave blank to keep current password">
-                    </div>
-
-                    <button type="submit">Update Staff</button>
-                </form>
-
-                <a href="{% url 'manage_staff' %}" class="back">
-                    Back to Manage Staff
-                </a>
-            </div>
-
-        </div>
-    </div>
-
-    <script src="{% static 'js/edit_staff.js' %}"></script>
-
-
+main_end_html = """
 </div>
+"""
 
-
+styles_and_scripts = """
 <style>
 .sidebar { width: 280px; background: linear-gradient(180deg,#4f46e5,#6d28d9); color: white; padding: 30px 20px; position: fixed; height: 100vh; box-shadow: 0 10px 30px rgba(0,0,0,.2); left: 0; top: 0; transition: width 0.3s; overflow-x: hidden; z-index: 1000; }
 .sidebar .logo { text-align: center; margin-bottom: 40px; }
@@ -131,6 +73,32 @@
         }
     });
 </script>
+"""
 
-</body>
-</html>
+target_files = [
+    "templates/leaves/leave_request.html",
+    "templates/accounts/manage_staff.html",
+    "templates/leaves/reports.html",
+    "templates/accounts/add_staff.html",
+    "templates/accounts/edit_staff.html"
+]
+
+for file in target_files:
+    if os.path.exists(file):
+        with open(file, "r", encoding="utf-8") as f:
+            content = f.read()
+            
+        if 'id="sidebar"' not in content:
+            # 1. Insert FontAwesome if not present
+            if 'font-awesome' not in content:
+                content = content.replace("</head>", '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">\n</head>')
+                
+            # 2. Add sidebar + main_start right after <body>
+            content = content.replace("<body>", f"<body>\n{sidebar_html}\n{main_start_html}")
+            
+            # 3. Add styles + main_end right before </body>
+            content = content.replace("</body>", f"{main_end_html}\n{styles_and_scripts}\n</body>")
+            
+            with open(file, "w", encoding="utf-8") as f:
+                f.write(content)
+            print(f"Updated {file}")
